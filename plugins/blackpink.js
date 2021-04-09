@@ -11,7 +11,7 @@ let handler = async(m, { conn, args, usedPrefix, command }) => {
 
 }
 
-handler.help = ['blackpink']
+handler.help = ['blackpink ᴹᵃⁿᵈᵃ ᶦᵐᵃᵍᵉⁿᵉˢ ᵏᵖᵒᵖ']
 handler.tags = ['images']
 handler.command = /^(blackpink)$/i
 handler.owner = false
