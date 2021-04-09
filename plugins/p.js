@@ -5,7 +5,7 @@ let { spawn } = require('child_process')
 let handler  = async (m, { conn }) => {
 	conn.sendFile(m.chat, 'media/ayokita.opus', 'tts.opus', null, m, true)
 }
-handler.help = ['p']
+handler.help = ['p ʸᵃᵐᵉᵗᵉ']
 handler.tags = []
 handler.command = /^(p)$/i
 handler.owner = false
