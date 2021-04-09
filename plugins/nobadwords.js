@@ -21,7 +21,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
 		conn.reply(m.chat, `*[ WRONG FORMAT ]*\n\nExample :\n	○ ${usedPrefix + command} on\n	○ ${usedPrefix + command} off`, m)
 	} 
 }
-handler.help = ['nobadword *on/off*']
+handler.help = ['nobadword ᵒⁿ|ᵒᶠᶠ']
 handler.tags = ['group admin']
 handler.command = /^(nobadword)$/i
 handler.owner = false
