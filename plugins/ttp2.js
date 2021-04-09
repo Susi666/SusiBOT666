@@ -14,7 +14,7 @@ let handler  = async (m, { conn, text }) => {
     })
   }
 }
-handler.help = ['ttp *text*']
+handler.help = ['ttp ᴴᵃᶜᵉ ᵉˡ ˢᵗᶦᶜᵏᵉʳ ᵉⁿ ᵗᵉˣᵗᵒ']
 handler.tags = ['sticker']
 handler.command = /^ttp2$/i
 handler.owner = false
