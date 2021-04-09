@@ -20,7 +20,7 @@ let handler  = async (m, { conn, args, usedPrefix, command }) => {
     conn.reply(m.chat, `*DATA Covid-19 Provinsia ${batch.features[0].attributes.Provinsi}*\n\nCasos positivos = ${format(batch.features[0].attributes.Kasus_Posi)}\nCaso curado = ${format(batch.features[0].attributes.Kasus_Semb)}\nCaso de muerte = ${format(batch.features[0].attributes.Kasus_Meni)}`, m)
   }) .catch(() => { conn.reply(m.chat, `_Ingrese el nombre correcto de la provincia !_`, m) })
 }
-handler.help = ['covid'].map(v => v + ' *provinsia*')
+handler.help = ['covid'].map(v => v + ' ᴵⁿᵍʳᵉˢᵉ ᵘⁿᵃ ᵖʳᵒᵛᶦⁿᶜᶦᵃ')
 handler.tags = ['data']
 handler.command = /^(covid)$/i
 handler.owner = false
