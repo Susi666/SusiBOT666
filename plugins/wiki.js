@@ -11,7 +11,7 @@ let handler = async(m, { conn, text, usedPrefix }) => {
         })
         .catch()
 }
-handler.help = ['wiki *query*','wikipedia *query*']
+handler.help = ['wiki ᴱˢᶜʳᶦᵇᵉ ˡᵒ ᑫᵘᵉ ᑫᵘᶦᵉʳᵉˢ ˢᵃᵇᵉʳ','wikipedia ᴱˢᶜʳᶦᵇᵉ ˡᵒ ᑫᵘᵉ ᑫᵘᶦᵉʳᵉˢ ˢᵃᵇᵉʳ']
 handler.tags = ['data']
 handler.command = /^(wiki|wikipedia)$/i
 handler.owner = false
