@@ -7,7 +7,7 @@ let handler = async function (m, { args }) {
   user.registered = false
   m.reply(`Registro eliminado!`)
 }
-handler.help = ['', 'ister'].map(v => 'unreg' + v + ' <SN|SERIAL NUMBER>')
+handler.help = ['', 'ister'].map(v => 'unreg' + v + ' ˢᴺ|ˢᴱᴿᴵᴬᴸ ᴺᵁᴹᴮᴱᴿ')
 handler.tags = ['exp']
 
 handler.command = /^unreg(ister)?$/i
