@@ -5,12 +5,12 @@ let handler = async (m, { conn, text }) => {
   m.reply('_En proceso..._\n*Espere aproximadamente 1 minuto*')
   try {
     let img = await ht(text ? text : ':v')
-    conn.sendFile(m.chat, img, 'Harta Tahta.png', '*© Samu330*\nMade with FFmpeg', m)
+    conn.sendFile(m.chat, img, 'Harta Tahta.png', '*© Susi*\nMade with FFmpeg', m)
   } finally {
     delete conn.hartatahta[m.chat]
   }
 }
-handler.help = ['tahta <teks>']
+handler.help = ['tahta ᴺᵒ ᶠᵘⁿᶜᶦᵒⁿᵃ']
 handler.tags = ['tools']
 handler.command = /^((harta)?tahta)$/i
 handler.limit = true
