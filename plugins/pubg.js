@@ -13,7 +13,7 @@ let url = 'https://videfikri.com/api/textmaker/pubgmlogo/?text1=' + `${to}` + '&
 conn.sendFile(m.chat, url, '', 'By @Susi', m)
 
 }
-handler.help = ['pubg']
+handler.help = ['pubg ᴺᵒ ᶠᵘⁿᶜᶦᵒⁿᵃ']
 handler.tags = ['images']
 handler.command = /^pubg?$/i
 handler.owner = false
