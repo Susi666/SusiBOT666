@@ -8,7 +8,7 @@ respuesta: ${pickRandom(['Sí', 'Quizás sí', 'Quizás', 'Quizás no', 'No', 'D
     }
   } : {})
 }
-handler.help = ['apakah <pertanyaan>']
+handler.help = ['apakah ᴴᵃˢ ᵘⁿᵃ ᵖʳᵉᵍᵘⁿᵗᵃ']
 handler.tags = ['kerang']
 handler.command = /^apakah$/i
 handler.owner = false
