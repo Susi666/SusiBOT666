@@ -7,7 +7,7 @@ let handler = async (m, { conn, text }) => {
     conn.reply(m.chat, `_Transmisión enviada con éxito a ${users.length} numero del bot_`, m)
   } else conn.reply(m.chat, 'Esta función es solo para hosts de bots',  m)
 }
-handler.help = ['broadcastjadibot','bcbot'].map(v => v + ' <teks>')
+handler.help = ['broadcastjadibot','bcbot'].map(v => v + ' ᴰᵉʲᵃ ᵉˢᵉ ᶜᵒᵐᵃⁿᵈᵒ ᵖᵃʳᵃ ᵉˡ ᵈᵘᵉⁿ̃ᵒ ᵈᵉˡ ᵇᵒᵗ')
 handler.tags = ['host']
 handler.command = /^(broadcast|bc)(jadi)?bot$/i
 handler.owner = true
