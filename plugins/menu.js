@@ -52,7 +52,7 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
       'host': '𝗛𝗼𝘀𝘁',
       'advanced': '𝗔𝗱𝘃𝗮𝗻𝗰𝗲𝗱',
       'info': '𝗜𝗻𝗳𝗼',
-      '': 'No Category',
+      '': 'Todos PUTOS',
     }
     for (let plugin of Object.values(global.plugins))
       if (plugin && 'tags' in plugin)
