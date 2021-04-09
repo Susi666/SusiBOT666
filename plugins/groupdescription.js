@@ -9,7 +9,7 @@ let handler  = async (m, { conn, args }) => {
 	} 
 	conn.groupUpdateDescription(m.chat, fr)
 }
-handler.help = ['setdesc *text*']
+handler.help = ['setdesc ᴱˢᶜʳᶦᵇᵉ ˡᵃ ᵈᵉˢᶜʳᶦᵖᶜᶦᵒⁿ']
 handler.tags = ['group admin']
 handler.command = /^(setdesc)$/i
 handler.owner = false
