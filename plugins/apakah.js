@@ -4,7 +4,7 @@ let handler = async (m, { conn, text }) => {
 *Respuesta:* ${pickRandom(['Sí', 'Quizás sí', 'Quizás', 'Quizás no', 'No', 'De ninguna manera'])}
 `.trim(), m)
 }
-handler.help = ['apakah <teks>?']
+handler.help = ['apakah ᴴᵃˢ ᵘⁿᵃ ᵖʳᵉᵍᵘⁿᵗᵃ']
 handler.tags = ['kerang']
 handler.customPrefix = /(\?$)/
 handler.command = /^apakah$/i
