@@ -9,7 +9,7 @@ let handler  = async (m, { conn, text}) => {
     conn.reply(m.chat,`Se envió un informe de error satisfactorio\n\nSabías el hecho impactante de que los informes falsos pueden ocasionar? *BANNED*`,m)
   }
 }
-handler.help = ['bug *text*']
+handler.help = ['bug ᴵⁿᶠᵒʳᵐᵃ ᵃˡᵍᵘⁿ ᵉʳʳᵒʳ']
 handler.tags = ['info']
 handler.command = /^(bug)$/i
 handler.owner = false
