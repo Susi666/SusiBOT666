@@ -9,7 +9,7 @@ let handler = async(m, { conn, text }) => {
     m.reply(laporan, m.sender) 
     conn.reply(m.chat, '✔️Se han informado los problemas al propietario del bot, no se responderá a los informes falsos.', m)
 }
-handler.help = ['bug', 'report'].map(v => v + ' <reporte>')
+handler.help = ['bug', 'report'].map(v => v + ' ᴿᵉᵖᵒʳᵗᵃ ᵃˡᵍᵘⁿ ᵉʳʳᵒʳ ʳᵉᵃˡ')
 handler.tags = ['info']
 handler.command = /^(bug|report)$/i
 handler.owner = false
