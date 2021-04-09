@@ -11,7 +11,7 @@ _*Username:*_ @${json.result.username}
     thumbnail
   })
 }
-handler.help = ['tiktok'].map(v => v + ' <url>')
+handler.help = ['tiktok'].map(v => v + ' ᴱˢᶜʳᶦᵇᵉ ˡᵃ ᵁᴿᴸ')
 handler.tags = ['downloader']
 
 handler.command = /^(tiktok(dl)?)$/i
