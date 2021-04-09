@@ -17,7 +17,7 @@ let handler = async (m, { conn, args, isPrems, isOwner }) => {
 *📁Filesize:* ${filesizeF}
 `.trim(), m)
 }
-handler.help = ['mp4','v',''].map(v => 'yt' + v + ' <url> [server: id4, en60]')
+handler.help = ['mp4','v',''].map(v => 'yt' + v + ' ᴱˢᶜʳᶦᵇᵉ ˡᵃ ᵘʳˡ ᵈᵉˡ ᵛᶦᵈᵉᵒ')
 handler.tags = ['downloader']
 handler.command = /^yt(v|mp4)?$/i
 handler.owner = false
