@@ -2,7 +2,7 @@ let handler  = async (m, { conn }) => {
 	conn.sendFile(m.chat, 'media/Just rape me..mp4', '', 'https://www.mediafire.com/folder/dnvq5v1ntsp36/Dephine+By+Sm330', m)
 }
 
-handler.help = ['belle']
+handler.help = ['belle ᶜᵒⁿᵗᵉⁿᶦᵈᵒ ⁺¹⁸']
 handler.tags = ['images']
 handler.command = /^(belle)$/i
 handler.owner = false
