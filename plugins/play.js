@@ -25,7 +25,7 @@ let handler = async (m, { conn, command, text, isPrems, isOwner }) => {
 *✅Source:* ${vid.url}
 `.trim(), m, false, _thumb || {})
 }
-handler.help = ['play', 'play2'].map(v => v + ' <canción >')
+handler.help = ['play', 'play2'].map(v => v + ' ᴱˢᶜʳᶦᵇᵃ ˡᵃ ᶜᵃⁿᶜᶦᵒ́ⁿ')
 handler.tags = ['downloader']
 handler.command = /^play2?$/i
 
