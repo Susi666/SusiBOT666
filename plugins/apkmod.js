@@ -4,7 +4,7 @@
 let handler = async m => m.reply(`
 〘 APK LIST 𝗠𝗢𝗗 〙
 ❃❃❃❃❃❃❃❃❃❃❃❃❃❃❃
-      Samu330:) *01* 
+         Susi
 ❃❃❃❃❃❃❃❃❃❃❃❃❃❃❃
 %readmore
 ➨𝗔𝗹𝗶𝗴𝗵𝘁 𝗠𝗼𝘁𝗶𝗼𝗻 𝗺𝗼𝗱
@@ -16,8 +16,8 @@ let handler = async m => m.reply(`
 ➨𝗜𝗻𝘀𝗵𝗼𝘁
 ➢https://apkdone.com/inshot/
 %readmore
-➨𝗙𝗶𝗹𝗺𝗼𝗿𝗮𝗚𝗼
-➢https://apkdone.com/filmorago/
+➨𝗗𝗲𝗲𝘇𝗲𝗿 𝗽𝗿𝗲𝗺𝗶𝘂𝗺
+➢https://techbigs.com/download?pid=11116&lid=12598
 %readmore
 ➨𝗟𝗶𝗴𝗵𝘁𝗿𝗼𝗼𝗺
 ➢https://apkdone.com/adobe-lightroom/
