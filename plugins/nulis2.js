@@ -56,10 +56,10 @@ let handler  = async (m, { conn, args }) => {
   ])
   .on('error', e => conn.reply(m.chat, util.format(e), m))
   .on('exit', () => {
-    conn.sendFile(m.chat, outputPath, 'nulis.jpg', 'Made by Samu330:v', m)
+    conn.sendFile(m.chat, outputPath, 'nulis.jpg', 'Made by Susi666:v', m)
   })
 }
-handler.help = ['n'].map(v => v + 'ulis2 <texto>')
+handler.help = ['n'].map(v => v + 'ulis2 ᴱˢᶜʳᶦᵇᵉ ᵃˡᵍᵒ')
 handler.tags = ['tools']
 handler.command = /^nulis2$/i
 handler.owner = false
