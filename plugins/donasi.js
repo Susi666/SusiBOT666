@@ -1,11 +1,11 @@
 let handler = async m => m.reply(`
-╭─〘 𝑺𝒂𝒎𝒖𝟑𝟑𝟎𝗜 〙
-│ • 𝑃𝑎𝑦𝑝𝑎𝑙 [paypal.me/samu330]
-│ • Pero con que te suscribas a mi canal basta:)
-│ https://www.youtube.com/watch?v=chMc57gjmkI&t=88s
+╭─〘 𝗦𝘂𝘀𝗶𝟲𝟲𝟲 〙
+│ • 𝑃𝑎𝑦𝑝𝑎𝑙 [paypal.me/smonterroza12]
+│ • Pero con que me sigas en instagram me basta:)
+│ https://www.instagram.com/susana_monterroza_/
 ╰────
 `.trim()) // Tambah sendiri kalo mau
-handler.help = ['donasi']
+handler.help = ['donasi ˢᶦᵍᵘᵉᵐᵉ ᵉⁿ ᶦⁿˢᵗᵃᵍʳᵃᵐ']
 handler.tags = ['info']
 handler.command = /^dona(te|si)$/i
 
