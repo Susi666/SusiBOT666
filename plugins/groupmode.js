@@ -13,7 +13,7 @@ let handler  = async (m, { conn, args }) => {
 		conn.reply(m.chat, `*[ GROUP MODE ]*\n\nEstablece on o off !`, m)
 	} 
 }
-handler.help = ['groupmode *on/off*']
+handler.help = ['groupmode ᵃᵖᵃᵍᵃᵈᵒ|ᵉⁿᶜᵉⁿᵈᶦᵈᵒ']
 handler.tags = ['owner']
 handler.command = /^(groupmode)$/i
 handler.owner = true
