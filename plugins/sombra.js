@@ -10,7 +10,7 @@ let url = 'https://videfikri.com/api/textmaker/shadowtext/?text=' + encodeURICom
 conn.sendFile(m.chat, url, m)
 
 }
-handler.help = ['sombra']
+handler.help = ['sombra ᴱˢᶜʳᶦᵇᵉ ᵃˡᵍᵒ']
 handler.tags = ['images']
 handler.command = /^sombra?$/i
 handler.owner = false
