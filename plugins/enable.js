@@ -34,7 +34,7 @@ ${usedPrefix}disable welcome
 *${type}* se establecio *${isEnable ? 'activado' : 'desactivado'}* en ${isAll ? 'este bot' : 'este chat'}
 `.trim())
 }
-handler.help = ['en', 'dis'].map(v => v + 'able <option>')
+handler.help = ['en', 'dis'].map(v => v + 'able ᴬᶜᵗᶦᵛᵃ ˡᵃ ᵇᶦᵉⁿᵛᵉⁿᶦᵈᵃ ᵐᵃˡᵉᵈᵘᶜᵃᵈᵒ')
 handler.tags = ['group', 'owner']
 handler.command = /^((en|dis)able|(tru|fals)e|(turn)?o(n|ff))$/i
 
