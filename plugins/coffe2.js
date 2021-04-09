@@ -9,7 +9,7 @@ let url = 'https://videfikri.com/api/textmaker/coffeecup2/?text=' + encodeURICom
 conn.sendFile(m.chat, url, m)
 
 }
-handler.help = ['coffe2']
+handler.help = ['coffe2 ᴾᵒⁿᵉ ᵉˡ ᵗᵉˣᵗᵒ ᵉⁿ ᵘⁿᵃ ᶦᵐᵃᵍᵉⁿ ᵈᵉ ᶜᵃᶠᵉ']
 handler.tags = ['images']
 handler.command = /^coffe2?$/i
 handler.owner = false
