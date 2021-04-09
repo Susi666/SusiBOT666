@@ -21,7 +21,7 @@ let handler = async (m, { conn, text }) => {
   m.reply(`(${-xp} XP) + (${-pjk} XP (Impuesto 2%)) = ( ${-exp} XP)`)
   conn.fakeReply(m.chat, `+${xp} XP`, who, m.text)
 }
-handler.help = ['pay @user <amount>']
+handler.help = ['pay @user ᴱˢᶜʳᶦᵇᵃ ᵃˡ ᵘˢᵘᵃʳᶦᵒ ʸ ˡᵒ ᑫᵘᵉ ˡᵉ ᵖᵃᵍᵃʳᵃ']
 handler.tags = ['xp']
 handler.command = /^pay$/
 handler.rowner = true
