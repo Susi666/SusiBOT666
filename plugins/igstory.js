@@ -23,7 +23,7 @@ Memposting pada ${new Date(taken_at * 1000).toLocaleDateString('id', dateConfig)
 `, m)
   throw json.result
 }
-handler.help = ['igstory'].map(v => v + ' <username>')
+handler.help = ['igstory'].map(v => v + ' ᴱˢᵗᵉ ᶜᵒᵐᵃⁿᵈᵒ ᵉˢᵗᵃ ᵉⁿ ᵗʳᵃᵇᵃʲᵒ')
 handler.tags = ['downloader']
 
 handler.command = /^(igs(tory)?)$/i
