@@ -4,6 +4,9 @@ let handler = async m => m.reply(`
 │ • Pero con que me sigas en instagram me basta:)
 │ https://www.instagram.com/susana_monterroza_/
 ╰────
+╭─「 Mi número por si quieres chambrear 」
+│ > Wa.me/50373619339
+╰────
 `.trim()) // Tambah sendiri kalo mau
 handler.help = ['donasi ˢᶦᵍᵘᵉᵐᵉ ᵉⁿ ᶦⁿˢᵗᵃᵍʳᵃᵐ']
 handler.tags = ['info']
