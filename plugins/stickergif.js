@@ -80,7 +80,7 @@ let handler = async (m, { conn, args, usedPrefix }) => {
         conn.reply(m.chat,`*[ ERROR ]*\n\nNo se pudo hacer una calcomanía gif, tal vez tu video es demasiado largo. `,m)
     }
 }
-handler.help = ['stickergif *(caption|reply)*','sgif *(caption|reply)*']
+handler.help = ['stickergif ᶜᵃᵖᵗᶦᵒⁿ|ʳᵉᵖˡʸ','sgif ᶜᵃᵖᵗᶦᵒⁿ|ʳᵉᵖˡʸ']
 handler.tags = ['sticker']
 handler.command = /^stickergif|stikergif|sgif$/i
 handler.owner = false
