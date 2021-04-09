@@ -21,7 +21,7 @@ let handler = async (m, { text, usedPrefix }) => {
     }
 
 }
-handler.help = ['translate'].map(v => v + ' <to>|<texts>')
+handler.help = ['translate'].map(v => v + ' ᵀʳᵃᵈᵘᶜᵉ ˡᵒ ᑫᵘᵉ ᑫᵘᶦᵉʳᵃˢ ᵃ ᶜᵘᵃˡᑫᵘᶦᵉʳ ᶦᵈᶦᵒᵐᵃ')
 handler.tags = ['tools']
 handler.command = /^(tr(anslate)?)$/i
 handler.owner = false
