@@ -8,8 +8,8 @@ Simple WhatsApp Bot
 > pkg install nodejs -y
 > pkg install ffmpeg -y
 > pkg install imagemagick -y
-> git clone https://github.com/Susi666/B666
-> cd B666
+> git clone https://github.com/Susi666/SusiBot666
+> cd SusiBot666
 > npm install
 ```
 ###### Para iniciarlo
