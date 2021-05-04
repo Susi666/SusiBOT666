@@ -1,10 +1,11 @@
+  
 const axios = require('axios')
 let handler = async(m, { conn }) => {
-    let samu = await axios.get('https://videfikri.com/api/ccgenerator/')
-           await conn.reply(m.chat, 'Data: `${susi.data.network}`\nnúmero: `${susi.data.number}`', m)
+    let susi = await axios.get('https://videfikri.com/api/ccgenerator/')
+           await conn.reply(m.chat, 'Data:' + ` ${susi.result.network}` + '\nnúmero:' + ` ${susi.result.number}`, m)
   } 
 
-handler.help = ['cc ᴺᵒ ᵘˢᵃʳ ᵉˢᵗᵉ ᶜᵒᵐᵃⁿᵈᵒ']
+handler.help = ['cc']
 handler.tags = ['tools']
 handler.command = /^(cc)$/i
 handler.owner = false
