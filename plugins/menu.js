@@ -92,16 +92,10 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
 *║┊:* 🕐𝘁𝗶𝗲𝗺𝗽𝗼 𝗱𝗲 𝗮𝗰𝘁𝗶𝘃𝗶𝗱𝗮𝗱: *%uptime*
 *║┊:* 💻𝗮𝗰𝘁𝗶𝘃𝗶𝗱𝗮𝗱 𝗽𝗿𝗶𝗻𝗰𝗶𝗽𝗮𝗹 *%muptime*
 *║┊:* 📁𝗗𝗮𝘁𝗮𝗯𝗮𝘀𝗲: %totalreg numeros
-*║┊:* ◦ 🌐Navegador : *${conn.browserDescription[1]}*
-*║┊:* ◦ 📡servidor : *${conn.browserDescription[0]}*
-*║┊:* ◦ ✅version : *${conn.browserDescription[2]}*
-*║┊:* ◦ 🚄Velocidad : *${neww}* ms
-*║┊:* ◦ 📲Sistema operativo : *${conn.user.phone.device_manufacturer}*
-*║┊:* ◦ 🪀version de *WhatsApp* : ${conn.user.phone.wa_version}
 *║┊:* 👑Mi Instagram
 *║┊:* Susana_monterroza_
 *║┊:* Numero de la Dueña del Bot
-*║┊:* +64 27 666 60666
+*║┊:* +49 172 81111117
 *╰═┅ৡৢ͜͡✦═══╡S͛͛uͧͧs͛͛iͥͥ666╞═══┅ৡৢ͜͡✦═╯*
 %readmore
 *╭═┅〘🛑 𝗢𝗯𝗲𝗱𝗲𝗰𝗲 𝗹𝗮𝘀 𝗿𝗲𝗴𝗹𝗮𝘀 🛑〙*
