@@ -12,7 +12,7 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.packname = '🌟SusiBOT🌟\n     🔥+64 27 666 60666🔥'
+global.packname = '🌟SusiBOT🌟\n     🔥+49 172 81111117🔥'
 global.author = 'Susi'
 
 global.multiplier = 69 // The higher, The harder levelup
