@@ -34,25 +34,23 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
     let uptime = clockString(_uptime)
     let totalreg = Object.keys(global.DATABASE._data.users).length
     let tags = {
-      'main': '𝗠𝗘𝗡𝗨',
-      'xp': '𝗘𝘅𝗽 & 𝗟𝗶𝗺𝗶𝘁',
-      'sticker': '𝗦𝘁𝗶𝗰𝗸𝗲𝗿',
-      'kerang': '𝗝𝘂𝗲𝗴𝗼𝘀',
-      'game': '𝐆𝐚𝐦𝐞',
-      'images' : '𝐈𝐦𝐚𝐠𝐞𝐧𝐞𝐬',
-      'data' : '𝗜𝗻𝗳𝗼𝗿𝗺𝗮𝗰𝗶𝗼𝗻',
-      'admin': '𝗔𝗱𝗺𝗶𝗻',
-      'group': '𝗚𝗿𝘂𝗽𝗼',
-      'internet': '𝗜𝗻𝘁𝗲𝗿𝗻𝗲𝘁',
-      'downloader': '𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱𝗲𝗿',
-      'tools': '𝗛𝗲𝗿𝗿𝗮𝗺𝗶𝗲𝗻𝘁𝗮𝘀',
-      'fun': '𝗙𝘂𝗻 𝗺𝗲𝗻𝘂',
-      'jadibot': '𝐒𝐮𝐬𝐢 𝗕𝗼𝘁',
-      'owner': '𝗢𝘄𝗻𝗲𝗿 𝗺𝗲𝗻𝘂',
-      'host': '𝗛𝗼𝘀𝘁',
-      'advanced': '𝗔𝗱𝘃𝗮𝗻𝗰𝗲𝗱',
-      'info': '𝗜𝗻𝗳𝗼',
-      '': 'Todos PUTOS',
+      'main': '🎉Menu🎉',
+      'info': '🤖Información del Bot de Susi🤖',
+      'xp': '📉Exp & Limit📉',
+      'sticker': '🎃Sticker🎃',
+      'kerang': '✨Mágico✨',
+      'quotes': '✍🏼Citas✍🏼',
+      'admin': '👑Admin👑',
+      'group': '🌚Grupo🌝',
+      'internet': '💥Internet💥',
+      'downloader': '📥Descargas📥',
+      'tools': '🛠Herramientas🛠',
+      'fun': '🎭Fun🎭',
+      'jadibot': '🥵Susi Bot🥵',
+      'owner': '😈Dueño😈',
+      'host': '⚡Host⚡',
+      'advanced': '☠️Avanzado☠️',
+      '': '📍NoAi📍',
     }
     for (let plugin of Object.values(global.plugins))
       if (plugin && 'tags' in plugin)
@@ -66,10 +64,6 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
         limit: plugin.limit
       }
     })
-    function monospace(string) {
-    let _3 = '`'.repeat(3)
-    return _3 + string + _3
-}
     let groups = {}
     for (let tag in tags) {
       groups[tag] = []
@@ -81,7 +75,7 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
     let before = conn.menu.before || `
 *╭═┅〘 ${conn.getName(conn.user.jid)} 〙═╮*
 *║┊:* 🙂Wuenas, %name!
-*║┊:* ⃟ ⃟  ━ೋ๑————๑ೋ━* ⃟ ⃟ *      
+*║┊:* ⃟ ⃟  ━ೋ๑————๑ೋ━* ⃟ ⃟ *      
 *║┊:◄✜┢┅ீ͜ৡৢ͜͡✦━━◇━━ீ͜ৡৢ͜͡✦┅┧✜►*
 *║┊:* ✨ *%exp XP*
 *║┊:* ⚠𝗟𝗶𝗺𝗶𝘁𝗲𝘀 *%limit Limit*
@@ -105,11 +99,13 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
 *▌║✙*✅𝑺igueme en Instagram🙂
 *▌║➫ Bot By:*
 *▌║✙* ị¡-Ṣusi.li.
+ 
+• < 🌟 ≫───•◦Comandos del BOT◦•───≪ 🌟 > •
 %readmore`
-    let header = conn.menu.header || '*╭═┅〘✨ %category ✨〙═╮*'
-    let body   = conn.menu.body   || '*▌║❧ %cmd%islimit'
-    let footer = conn.menu.footer || '*╰═┅ৡৢ͜͡✦═══╡ツ Susi.li ツ╞═══┅ৡৢ͜͡✦═╯*\n'
-    let after  = conn.menu.after  || (conn.user.jid == global.conn.user.jid ? '' : `Powered by https://wa.me/${global.conn.user.jid.split`@`[0]}`) + `\n*%npmname@^%version*\n\`\`\`\%npmdesc\`\`\``
+    let header = conn.menu.header || '╭════•›「 %category 」'
+    let body   = conn.menu.body   || '┠❧ %cmd%islimit'
+    let footer = conn.menu.footer || '╰══════════\n'
+    let after  = conn.menu.after  || (conn.user.jid == global.conn.user.jid ? '' : `Powered bye\nBOT NFQ: ${global.conn.user.jid.split`@`[0]}`) + `\n*%npmname@^%version*\n\`\`\`\%npmdesc\`\`\``
     let _text  = before + '\n'
     for (let tag in groups) {
       _text += header.replace(/%category/g, tags[tag]) + '\n'
@@ -132,9 +128,9 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).join`|`})`, 'g'), (_, name) => replace[name])
-    conn.sendFile(m.chat, 'media/descarga (2).png', '', text.trim(), m)
+    conn.reply(m.chat, text.trim(), m)
   } catch (e) {
-    conn.reply(m.chat, 'Lo sentimos, el menú tiene un error', m)
+    conn.reply(m.chat, 'Maaf, menu sedang error', m)
     throw e
   }
 }
@@ -163,4 +159,3 @@ function clockString(ms) {
   let m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60
   let s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60
   return [h, m, s].map(v => v.toString().padStart(2, 0) ).join(':')
-}
